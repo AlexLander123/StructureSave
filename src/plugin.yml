@@ -1,0 +1,11 @@
+name: StructureSave
+main: me.AlexLander123.StructureSave.StructureSave
+version: 1.0
+author: AlexLander123
+commands:
+   structuresave:
+      description: Saves structure into world file.
+      usage: /structuresave [Structure Name]
+      permission: structuresave.save
+description: >
+             Moves structures that are saved into memory by Structure Blocks to world file.
