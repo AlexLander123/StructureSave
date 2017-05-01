@@ -44,7 +44,8 @@ public class StructureSave extends JavaPlugin{
 			
 		case ("v1_11_R1"):
 			nms = new NMS_v1_11_R1();
-			
+			break;
+		
 		default:
 			this.logger.severe(ChatColor.RED + "[StructureSave] Unsupported version disabling plugin.");
 			getServer().getPluginManager().disablePlugin(this);
