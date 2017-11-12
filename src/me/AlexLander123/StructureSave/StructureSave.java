@@ -5,6 +5,7 @@ import java.util.logging.Logger;
 import me.AlexLander123.StructureSave.NMS.NMSInterface;
 import me.AlexLander123.StructureSave.NMS.NMS_v1_10_R1;
 import me.AlexLander123.StructureSave.NMS.NMS_v1_11_R1;
+import me.AlexLander123.StructureSave.NMS.NMS_v1_12_R1;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -44,6 +45,10 @@ public class StructureSave extends JavaPlugin{
 			
 		case ("v1_11_R1"):
 			nms = new NMS_v1_11_R1();
+			break;
+			
+		case ("v1_12_R1"):
+			nms = new NMS_v1_12_R1();
 			break;
 		
 		default:
